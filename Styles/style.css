@@ -1,0 +1,22 @@
+.content{
+    background-color: #042940;
+}
+.nav-bar{
+    margin-inline: 4vw;
+    margin-top: 5vh;
+}
+.logo{
+    height: 5vh;
+    width: 5vw;
+    float: left;
+}
+.nav-routes{
+    float: right;
+    margin-right: 5vw;
+}
+.nav-options{
+    color: white;
+    margin-right: 4vw;
+    text-decoration: none;
+    font-family: sans-serif;
+}
