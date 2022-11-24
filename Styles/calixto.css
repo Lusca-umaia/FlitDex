@@ -1,14 +1,93 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 60vw 38vw;
-    height: 86vh;
+    height: 75vh;
     width: 100vw;
-    background-color: red;
+    background-color: #042940;
     gap: 2vh;
+    grid-template-areas: 'myArea  .' ;
+   
+    
 }
 
 .col{
     margin-top: 1vh;
-    margin-left: 2vw;
-    background-color: aqua;
+    margin-left: 9vw;
+
+    
+}
+
+
+.dados{
+    height: 30vh;
+    grid-area: myArea;
+    width: 90vh;
+    
+}
+
+.tabela{
+    height: 73vh;
+    width: 65vh;
+    margin-left: -12vh;
+    background-color: yellow;
+}
+.descricao{
+    margin-top: -37vh;
+    height: 35vh;
+    width: 90vh;
+    border-top: solid yellow 0.5vh;
+}
+
+.calixto{
+    height: 30vh;
+    width: 20vh;
+    float: left;
+    margin-right: 2vh;
+    border-radius: 5%;
+   
+}
+
+.texts{
+    margin-top: 3vh;
+    height: 30vh;
+    width: 30vh;
+    float: left;
+
+}
+.idade{
+    margin-top: 5vh;
+}
+
+h3{
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+}
+
+
+.button-descricao{
+    height: 4vh;
+    width: 10vh;
+    background-color: yellow;
+    border-radius: 13%;
+    margin-top: 7vh;
+    margin-right: 2vh;
+}
+.editar{
+    margin-left: 25vw;
+}
+
+.tit{
+    color: black;
+    margin: 2vh;
+}
+
+.li-descricao{
+    color: black;
+    border-bottom: solid black 0.3vh;
+    margin: 4vh;
+    margin-bottom: 3vh;
+    padding-bottom: 1vh;
+}
+
+.span-descricao{
+    float: right;
 }
