@@ -1,39 +1,101 @@
-html {
-    box-sizing: border-box;
-    font-size: 16px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ol,
-ul {
+* {
     margin: 0;
     padding: 0;
-    font-weight: normal;
 }
 
-ol,
-ul {
-    list-style: none;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.content{
+body {
     background-color: #042940;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.nav-routes {
+    display: flex;
+    gap: 4vw;
+}
+
+.nav-options {
+    color: white;
+    text-decoration: none;
+    font-family: Sora;
+}
+
+.mainCarousel {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 30px;
+    align-items: center;
+}
+
+.carousel {
+    width: 500px;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    transition: 1.5s all;
+    transform: translateX(0);
+}
+
+.content>a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+    font-family: Sora;
+    width: 500px;
+    gap: 20px;
+    transition: 0.5s all;
+}
+
+.content>a:hover {
+    opacity: 0.7;
+}
+
+.content>a>img {
+    height: 500px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#left {
+    width: 50px;
+    height: 50px;
+    transform: rotate(-180deg);
+}
+
+#right {
+    width: 50px;
+    height: 50px;
+    right: -10px;
 }
