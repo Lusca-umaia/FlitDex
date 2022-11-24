@@ -36,16 +36,20 @@
 .col > div{
     height: 15vh;
     background-color: blueviolet;
+    display: inline-block;    
+    
 }
-.comment-base{
-    display: block;
+.comment-base{  
     font-size: 2vh;
     margin-left: 1vh;
     margin-top: 0.5vh;
+    
+    
 }
 .name-base{
     font-size: 1.5vh;
     margin-left: 0.3vh;
+    vertical-align: bottom
 }
 .pink > div{
     background-color: #FFAFA3;
