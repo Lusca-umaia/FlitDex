@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 31vw 31vw 31vw;
+    height: 86vh;
+    width: 100vw;
+    justify-content: center;
+    background-color: #042940;
+    gap: 2vh;
+    
+}
+
+.row {
+    background-color: white;
+    margin-top: 2vh;
+}
+
+.header {
+    font-size: 1.6vh;
+
+}
+
+.col {
+    display: grid;
+    grid-template-columns: 9vw 9vw 9vw;
+    border: solid white 1.5vh;
+    gap: 2vh;
+    
+    
+}
+.titComments{
+    margin-top: 3vh ;
+    margin-left: 1vh;
+    margin-bottom: 3vh;
+}
+
+.col > div{
+    height: 15vh;
+    background-color: blueviolet;
+}
+.comment-base{
+    display: block;
+    font-size: 2vh;
+    margin-left: 1vh;
+    margin-top: 0.5vh;
+}
+.name-base{
+    font-size: 1.5vh;
+    margin-left: 0.3vh;
+}
+.pink > div{
+    background-color: #FFAFA3;
+}
+.green > div{
+    background-color: #85E0A3;
+}
+.blue > div{
+    background-color: #80CAFF;
+}
+.orange > div{
+    background-color: #FFC776;
+}
+.purple > div{
+    background-color: #D9B8FF;
+}
+.yellow > div{
+    background-color: #FFD966;
+}
+
+body {
+    background-color: lavender;
+}
