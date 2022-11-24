@@ -1,0 +1,14 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 60vw 38vw;
+    height: 86vh;
+    width: 100vw;
+    background-color: red;
+    gap: 2vh;
+}
+
+.col{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    background-color: aqua;
+}
