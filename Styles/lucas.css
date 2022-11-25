@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.container-main {
+    width: 90vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-left {
+    padding: 10px;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 700px;
+
+}
+
+.cont-right {
+    padding: 10px;
+    width: 35vw;
+    height: 700px;
+}
+
+.divisorOne {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    max-height: 270px;
+    border-radius: 20px;
+}
+
+#avatar {
+    width: 250px;
+    border-radius: 10px;
+    height: 250px;
+}
+
+.groupTexs {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#gap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.divisorTwo {
+    display: flex;
+    padding: 20px;
+    gap: 80px;
+    height: 350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+}
+
+#textPrinc {
+    display: flex;
+    min-width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#textPrinc p {
+    max-width: 100%;
+    text-align: justify;
+}
+
+.buttons {
+    margin: 0 auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+}
+
+.divisorButtons {
+    display: flex;
+    gap: 20px;
+}
+
+.StyleButton {
+    padding: 10px;
+    border: none;
+    background-color: #DBF227;
+    cursor: pointer;
+    font-weight: bold;
+    color: #042940;
+    font-family: Sora;
+    border-radius: 5px;
+    width: 100px;
+    transition: 0.4s all;
+}
+
+.StyleButton:hover {
+    background-color: white;
+}
+
+.boxPerson {
+    height: 660px;
+    background-color: #DBF227;
+    width: 30vw;
+    color: black;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.personAling {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contBox {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.bar {
+    width: 100%;
+    background-color: black;
+    height: 3px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.marker {
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    left: 60%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    position: absolute;
+}
+
+#line {
+    width: 100%;
+    height: 3px;
+    background-color: #DBF227;
+    border-radius: 2px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .container-main {
+        flex-direction: column;
+    }
+
+    .cont-left {
+        width: 100%;
+    }
+
+    .cont-right {
+        width: 100%;
+    }
+
+    .boxPerson {
+        width: 80vw;
+    }
+}

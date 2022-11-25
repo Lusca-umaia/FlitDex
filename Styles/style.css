@@ -1,24 +1,63 @@
-.content{
-    background-color: #042940;
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.mainCarousel {
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 30px;
+    align-items: center;
     height: 90vh;
 }
 .nav-bar{
-    height: 5vh;
     margin-inline: 4vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
-.logo{
-    height: 5vh;
-    width: 5vw;
-    float: left;
+
+.container {
+    display: flex;
+    align-items: center;
+    transition: 1.5s all;
+    transform: translateX(0);
 }
-.nav-routes{
-    float: right;
-    margin-right: 5vw;
-}
-.nav-options{
-    color: white;
-    margin-right: 4vw;
+
+.content>a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: Sora;
+    width: 500px;
+    gap: 20px;
+    transition: 0.5s all;
+}
+
+.content>a:hover {
+    opacity: 0.7;
+}
+
+.content>a>img {
+    height: 500px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+#left {
+    width: 50px;
+    height: 50px;
+    transform: rotate(-180deg);
+}
+
+#right {
+    width: 50px;
+    height: 50px;
+    right: -10px;
 }
