@@ -1,0 +1,81 @@
+.sessaoPrincipal{
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-areas: 'sessaoUm sessaoTres' 'sessaoDois sessaoTres';
+}
+.sessaoUm{
+    grid-area: sessaoUm;
+    height: 42vh;
+    width: 49vw;
+}
+.sessaoDois{
+    grid-area: sessaoDois;
+    height: 42vh;
+    width: 49vw;
+}
+.sessaoTres{
+    grid-area: sessaoTres;
+    height: 87vh;
+    width: 47vw;
+}
+.fotoPerfilAllan{
+    height: 30vh;
+    width: 12vw;
+    margin: 1vw;
+    float: left;
+}
+.textoSessaoUm{
+    color: white;
+    height: 35vh;
+    width: 20vw;
+    margin-top: 4vh;
+    margin-left: 2vw;
+    float: left;
+}
+.linha{
+    height: 1px;
+    border: none;
+    width: 95%;
+    background-color: #DBF227;
+    margin-top: 5vh;
+}
+.sessaoUm-textoPrimario{
+    margin: 0px 0px;
+    font-size: large;
+}
+.sessaoUm-textoSegundario{
+    font-size: x-small;
+}
+.textoSessaoDois{
+    color: white;
+    height: 25vh;
+    margin: 2vw;
+    max-width: 90vw;
+}
+.btn-sesaoDois{
+    background-color: #DBF227;
+    height: 5vh;
+    width: 8vw;
+    border-radius: 1.5vh;
+    border: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+.btn-sesaoDois:hover{
+    background-color: #b2c51f
+}
+.btn-sesaoDois-left{
+    margin-left: 2vw;
+    float: left;
+}
+.btn-sesaoDois-right{
+    margin-right: 2vw;
+    float: right;
+}
+.content-sessaoTres{
+    background-color: #DBF227;
+    height: 83vh;
+    width: 38vw;
+    margin: 1vw;
+}

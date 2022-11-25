@@ -1,9 +1,11 @@
 .content{
     background-color: #042940;
+    height: 90vh;
 }
 .nav-bar{
+    height: 5vh;
     margin-inline: 4vw;
-    margin-top: 5vh;
+    margin-top: 3vh;
 }
 .logo{
     height: 5vh;
