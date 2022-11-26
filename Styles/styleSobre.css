@@ -6,12 +6,11 @@
     justify-content: center;
     background-color: #042940;
     gap: 2vh;
-    margin-bottom: 100px;
-
+    
 }
 
 .row {
-    border-radius: 20px;
+    border-radius: 1vh;
     background-color: white;
     margin-top: 2vh;
 }
@@ -32,7 +31,6 @@
 
 .titComments {
     margin-top: 3vh;
-    font-size: 30px;
     margin-left: 1vh;
     margin-bottom: 3vh;
 }
@@ -41,23 +39,20 @@
     
 .col>div {
     text-align: center;
-    padding: 10px;
+    padding: 2vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 10px;
-    height: 170px;
-    width: 140px;
-    background-color: blueviolet;
-
+    border-radius: 1vh;
+    height: 18vh;
+    width: 18vw;
 }
 
 .comment-base {
-    font-size: 15px;
+
 }
 
 .name-base {
-    font-size: 18px;
     vertical-align: bottom;
 }
 
@@ -89,7 +84,7 @@ body {
     background-color: #042940;
 }
 
-@media only screen and (max-width: 1950px) {
+@media only screen and (max-width: 1980px) {
     .titComments {
         font-size: 30px;
     }
