@@ -4,6 +4,7 @@
     padding: 1vw;
     grid-template-areas: 'sessaoUm sessaoTres' 'sessaoDois sessaoTres';
 }
+
 .sessaoUm{
     grid-area: sessaoUm;
     height: 42vh;
@@ -113,4 +114,33 @@
     transform: translate(-50%, -50%);
     background-color: black;
     position: absolute;
+}
+@media only screen and (width <= 800px) {
+    .sessaoPrincipal{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .sessaoUm{
+        grid-area: sessaoUm;
+        height: 42vh;
+        width: 90%;
+        margin-inline: 5vw;
+
+    }
+    .sessaoDois{
+        grid-area: sessaoDois;
+        height: 42vh;
+        width: 90%;
+        margin-inline: 5vw;
+    }
+    .sessaoTres{
+        grid-area: sessaoTres;
+        height: 87vh;
+        width: 90%;
+    }
+    .content-sessaoTres{
+        width: 60vw;
+        margin-inline: 15vw;
+    }
 }
